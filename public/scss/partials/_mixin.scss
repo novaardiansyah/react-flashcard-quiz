@@ -1,0 +1,14 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+@use 'sass:map';
+@use 'variables' as v;
+
+/* generate theme */
+@mixin darkTheme($dark: 'true') {
+  @if $dark == 'false' {
+    background: map-get(v.$colors, cl-light);
+    color: map-get(v.$colors, cl-dark-1);
+  } @else {
+    background: map-get(v.$colors, cl-dark-1);
+    color: map-get(v.$colors, cl-light);
+  }
+}

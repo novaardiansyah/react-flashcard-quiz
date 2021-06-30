@@ -1,0 +1,13 @@
+{
+  "related-information": {},
+  "search-information": [
+  	{
+  		"title": "Hooks API Reference",
+  		"src": "https://reactjs.org/docs/hooks-reference.html"
+  	},
+  	{
+  		"title": "Trivia API",
+  		"src": "opentdb.com/api_config.php"
+  	}
+  ]
+}
